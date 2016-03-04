@@ -1,0 +1,140 @@
+body {
+	width:100%;
+	height: 950px;
+	background-color: #f9f9f9;
+}
+
+.wrapper {
+	width: 1060px;
+	height: 950px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.logo {
+	margin-left: 47px;
+	padding-top: 50px;
+}
+
+/*---------------------------HEADER---------------------------------------*/
+header {
+	height: 40px;
+	width: 965px;
+	background-color: #545454;
+	margin: 40px 47px;
+	line-height: 40px;
+}
+
+.header_menu a {
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+}
+
+.header_menu li {
+	display: block;
+	float: left;
+	padding: 0 25px;
+	margin-right: 14px;
+}
+
+.header_menu li:hover {
+	background-color: #454545;
+	border-right: 1px solid #838383 ;
+	border-left: 1px solid #838383 ;
+	padding: 0 24px;
+}
+
+
+/*---------------------------SIDEBAR---------------------------------------*/
+
+aside {
+	height: 238px;
+	width: 240px;
+	background-color: #fff;
+	line-height: 38px;
+	border-top: 1px solid #c8c8c8;
+	float: left;
+	margin-left: 47px;
+}
+
+.left_menu li {
+	display: block;
+	padding-left: 24px;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.left_menu a {
+	color: #656363;
+	text-decoration: none;
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+}
+
+.left_menu a:hover {
+	color: #2c2c2c;
+}
+
+.left_menu li:hover {
+	padding-left: 37px;
+	background-color: #f9f9f9;
+	font-weight: bold;
+}
+/*---------------------------CONTENT---------------------------------------*/
+.main {
+	width: 675px;
+	height: 400px;
+	border: 1px solid #c8c8c8;
+	margin-left: 335px;
+}
+
+.main img {
+	margin: 56px 96px;
+}
+
+.main p {
+	display: block;
+	font-family: "Times New Roman",sans-serif;
+	margin-top: 25px;
+	font-size: 14px;
+	padding-left: 22px;
+	line-height: 22px;
+}
+
+/*---------------------------FOOTER---------------------------------------*/
+.footer {
+	height: 40px;
+	width: 965px;
+	margin-left: 47px;
+	background-color: #e1e1e1;
+	margin-top: 240px;
+	line-height: 40px;
+	font-family: "Times New Roman",sans-serif;
+	font-size: 14px;
+}
+
+.footer_menu a {
+	color: black;
+	text-decoration: none;
+}
+
+.footer_menu li {
+	display: block;
+	float: left;
+	padding: 0 25px;
+	margin-right: 50px;
+}
+
+.footer_menu a:hover {
+	text-decoration: underline;
+}
+
+.footer p {
+	display: block;
+	padding-right: 40px;
+	float: right;
+}
