@@ -1,7 +1,12 @@
 @media screen and (min-width:1440px ) {
 .background_image{
 	background-size: cover;
+	
 }
+
+
+
+
 
 }
 
@@ -10,6 +15,8 @@
 .conteiner {
 	max-width: 728px;
 	padding: 0 20px;	
+
+
 }
 .background_image{
 	padding-bottom: 157px;
@@ -161,7 +168,7 @@ margin-top: 50px;
 /*-----------------*/
 @media screen and (max-width:767px ) {
 .conteiner {
-	max-width: 440px;
+	max-width: 440px; 
 	padding: 0 20px;	
 }
 .header-logo{
@@ -595,4 +602,3 @@ margin: 0px 6% 25px 6%;
 	margin-top: 40px;
 	margin-bottom: 147px;
 }	 
-}
