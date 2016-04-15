@@ -1,0 +1,99 @@
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.tabs {
+	width: 50%;
+	float: left;
+	border: 1px solid #13619D;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.tabs li {
+	width: 50%;
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	float: left;
+	background-color: rgba(145, 215, 255, 0.2); 
+	font-size: 21px;
+}
+
+.tabs li.active {
+	background-color: rgba(145, 215, 255, 0.5); 
+}
+
+.clearfix:after {
+	content: ""; 
+	display: table;
+	clear: both;
+}
+
+.tabs_content {
+	display: none; 
+}
+
+.tabs_content.active {
+	box-sizing: border-box;
+	display: block; 
+	font-size: 20px;
+	background-color: rgba(145, 215, 255, 0.5); 
+	line-height: 34px;
+	padding: 5px 40px 5px 40px;
+}
+
+.tabs_name li:hover {
+	color: #145484;
+	box-shadow: inset 0px 0px 50px 0px rgba(254,254,254,1);
+}
+
+form {
+	float: right;
+	width: 40%;
+}
+
+.container {
+	padding: 10px;
+	
+}
+
+.container input {
+	margin: 10px;
+	color:#D32D2D;
+	outline:none;
+	padding-left:5px; 
+}
+
+.container label {
+	display: inline-block;
+	width:60px;
+	color:#D32D2D;
+	font-weight: bold;
+}
+
+button {
+	padding:10px;
+	margin:10px; 
+	color: #ddd;
+	background-color:#D32D2D; 
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.tooltip {
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(211,45,45,1);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(211,45,45,1);
+	box-shadow: 0px 0px 8px 0px rgba(211,45,45,1);
+	text-align: center;
+	color: #ddd;
+}
+
+.box {
+	width: 200px;
+	line-height: 30px;
+	border-radius: 10px;
+}
