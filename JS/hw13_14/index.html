@@ -1,0 +1,59 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HW13_14</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <!-- ----------------------------------------------------------------------------- -->
+  <body>
+  <div class="wrapper">
+    <p class="headerTest">
+        ТЕСТ
+    </p>
+    <form method="POST" action="#" class="interview" name="interview">
+      <script type="text/html" class="test">
+        <% for(i=0; i<data.length; i++) { %>
+          <div class="question">
+          <%= data[i].question %>
+          </div>
+          <% for(j=0; j<Object.keys(data[i].answers).length; j++) { %>
+            <label  class="answers">
+              <input type="checkbox">
+                <span>
+                  <%= data[i].answers[j+1][0] %>
+                </span>
+              </input>
+            </label>
+           <% }; %>
+        <% }; %> 
+      </script>
+      <input type="button" value="Проверить" name="check" class="check">
+      </input>
+    </form>
+    <div id="modal_form">
+      <span id="modal_close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </span> 
+    </div>
+    <div id="overlay">
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
