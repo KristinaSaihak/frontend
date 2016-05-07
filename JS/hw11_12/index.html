@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HW9_10</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jcarousel.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <script src="js/jquery.jcarousel.min.js"></script>
+  <script src="js/tmpl.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+<!-- ----------------------------------------------------------------------------- -->
+<body>
+
+ <div class="wrapper clearfix">
+
+  <!-- ----------------------------------------------------------------------------- -->
+  <div class="jcarousel-wrapper clearfix">
+    <div class="carousel-arrow-left">&lsaquo;</div>
+    <div class="carousel-hider">
+      <ul class="carousel-list">
+        <li class="carousel-element" value="1"> <img src="img/img1.png"><p class="carousel-box">Описание 1</p></li>
+        <li class="carousel-element" value="2"> <img src="img/img2.png"><p class="carousel-box">Описание 2</p></li>
+        <li class="carousel-element" value="3"> <img src="img/img3.png"><p class="carousel-box">Описание 3</p></li>
+        <li class="carousel-element" value="4"> <img src="img/img4.png"><p class="carousel-box">Описание 4</p></li>
+        <li class="carousel-element" value="5"> <img src="img/img5.png"><p class="carousel-box">Описание 5</p></li>
+        <li class="carousel-element" value="6"> <img src="img/img6.png"><p class="carousel-box">Описание 6</p></li>
+        <li class="carousel-element" value="3"> <img src="img/img3.png"><p class="carousel-box">Описание 7</p></li>
+        <li class="carousel-element" value="4"> <img src="img/img4.png"><p class="carousel-box">Описание 8</p></li>
+        <li class="carousel-element" value="5"> <img src="img/img5.png"><p class="carousel-box">Описание 9 </p></li>
+        <li class="carousel-element" value="6"> <img src="img/img6.png"><p class="carousel-box">Описание 10</p></li>
+      </ul>
+    </div>
+    <div class="carousel-arrow-right">&rsaquo;</div>
+  </div>
+
+  <!-- ----------------------------------------------------------------------------- -->
+
+
+  <div class="listProduct">
+    <script type="text/html" class="product">
+      <% for(i=0; i<data.length; i++) { %>
+      <div class="productBox box">
+        <div class="nameProduct h2"><%= data[i].title %></div>
+        <img src="img/<%=data[i].img%>.png">
+        <div class="h2">
+          Описание фото: 
+        </div>
+        <div><%= data[i].text %></div>
+      </div>
+      <hr>
+      <% }; %>
+    </script>
+  </div>  
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

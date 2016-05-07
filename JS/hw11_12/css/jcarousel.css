@@ -1,0 +1,64 @@
+.wrapper {
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+ 
+.carousel-element img {
+    max-width: 100px;
+}
+
+
+.carousel-list { 
+position: relative;   
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+}
+
+.carousel-hider {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+ 
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+   height: 40px;
+   width: 40px;
+   line-height: 40px;
+   text-align: center;
+   font-size: 20px;
+    background-color: red;
+    border-radius: 40px;
+    margin-top:25px; 
+}
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+.carousel-box {
+    text-align: center;
+}
+
+.jcarousel-wrapper{
+    width: 730px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
