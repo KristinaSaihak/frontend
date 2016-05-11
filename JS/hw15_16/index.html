@@ -1,0 +1,49 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HW15_16</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <!-- ----------------------------------------------------------------------------- -->
+  <body>
+    <div class="wrapper">
+
+      <div class="box">
+        <form action="#" method="GET">
+          <button>
+            <span>
+              Показать ленту изображений
+            </span>
+            <img src="http://mirgif.com/mal/jemocii/jemocii_18.gif">
+          </button>
+        </form>
+
+        <script type="text/html" class="img">
+          <% for(i=0; i<7; i++) { %>
+          <img src="<%= data.tags[i].image %>">
+          <% }; %>  
+        </script>
+
+        <div class="left">
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
