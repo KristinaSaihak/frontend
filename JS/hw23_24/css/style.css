@@ -1,0 +1,64 @@
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.wrapper {
+	width: 540px;
+	margin: 0 auto;
+}
+.headerToDo {
+	text-align: center;
+	font-size: 25px;
+	color: rgba(96,46,113,1);
+}
+
+.change-box{
+	display: none;
+}
+.list div{
+	float:left;
+}
+.list {
+	width: 460px;
+	margin: 10px 0px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(96,46,113,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(96,46,113,1);
+	box-shadow: 0px 0px 10px 0px rgba(96,46,113,1);
+}
+
+.data-list{
+	width: 400px;
+	padding: 10px 10px;
+	
+}
+
+.add, .add-change-value  {
+	display: block;
+	background-color:  rgba(96,46,113,1);
+	color: #fff;
+	padding: 5px 15px 5px 15px;
+	margin: 0 auto;
+}
+.item-value, .item-change-value {
+	width: 400px;
+	height: auto;
+	padding: 10px 0px 0px 10px;
+	display: block;
+	box-sizing: border-box;
+	line-height: 20px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(96,46,113,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(96,46,113,1);
+	box-shadow: 0px 0px 10px 0px rgba(96,46,113,1);
+}
+
+.item-add{
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 10px;
+	display: block;
+
+}

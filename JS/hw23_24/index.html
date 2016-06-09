@@ -1,0 +1,76 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HW23_24</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <script src="js/tmpl.js"></script>
+    <script data-main="js/main.js" src="js/require.js"></script>
+
+  </head>
+  <!-- ----------------------------------------------------------------------------- -->
+  <body>
+  <script type="text/html" class="list">
+  <div class="wrapper">
+  
+    <p class="headerToDo">
+        ToDo-list:
+    </p>
+  
+   <ul class="item-list">
+   
+   </ul>
+   <div class="item-add ">
+     <textarea class="item-value "></textarea>
+     <input type="button" value="Add" class="add "></input>
+    </div>
+       </div>
+    </script>
+
+      <script type="text/html" class="ToDoList">
+        <% for(var i=0; i<data.length; i++) { %>
+          <li class="list clearfix">
+          <div class="data-list">
+            <p><%= data[i] %></p>
+          </div>
+          <div>
+            <span class="item-del"  >
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </span>
+            <span class="item-change">
+              <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+          </div>
+            <span class="change-box">
+              <textarea class=" item-change-value "></textarea>
+              <input type="button" value="Change" class="add-change-value  "></input>
+            </span>
+
+
+          </li> 
+
+
+        <% }; %> 
+      </script>
+    
+
+  
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
